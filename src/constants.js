@@ -54,6 +54,7 @@ import webverLogo from './assets/work_logo/web_dig.png';
 import food from './assets/work_logo/food.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
+import ecommerceLogo from './assets/work_logo/Cart.png'
 
 
 export const SkillsInfo = [
@@ -298,5 +299,15 @@ export const SkillsInfo = [
       tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
       github: "https://github.com/tanka2u/Image-Background-Remover",
       webapp: "https://removeyourbg.netlify.app/",
+    },
+    {
+      id: 9,
+      title: "E-Shopping Cart",
+      description:
+        "A responsive, theme-aware React cart modal that displays cart items, allows quantity updates and removals, and shows the total cost.",
+      image: ecommerceLogo,
+      tags: ["React JS", "API", "HTML", "CSS", "Javascript"],
+      github: "https://github.com/tanka2u/ShopCart#",
+      webapp: "https://cartshops.netlify.app/",
     },
   ];  
