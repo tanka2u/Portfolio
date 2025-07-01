@@ -55,6 +55,7 @@ import food from './assets/work_logo/food.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
 import ecommerceLogo from './assets/work_logo/Cart.png'
+import calendar from './assets/work_logo/calendar.png'
 
 
 export const SkillsInfo = [
@@ -306,8 +307,18 @@ export const SkillsInfo = [
       description:
         "A responsive, theme-aware React cart modal that displays cart items, allows quantity updates and removals, and shows the total cost.",
       image: ecommerceLogo,
-      tags: ["React JS", "API", "HTML", "CSS", "Javascript"],
+      tags: ["React JS", "API", "HTML", "CSS", "Javascript, Tailwindcss"],
       github: "https://github.com/tanka2u/ShopCart#",
       webapp: "https://cartshops.netlify.app/",
+    },
+    {
+      id: 10,
+      title: "Interactive React Calendar with Event Scheduling and Management",
+      description:
+        "This is a fully interactive React calendar app that lets users add, view, and delete events with date and time selection, while visually marking event days.",
+      image: calendar,
+      tags: ["React JS", "API", "HTML", "CSS", "Javascript"],
+      github: "https://github.com/tanka2u/CalanderApp",
+      webapp: "https://calandernote.netlify.app/",
     },
   ];  
