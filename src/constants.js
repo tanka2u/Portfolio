@@ -57,6 +57,10 @@ import removebgLogo from './assets/work_logo/remove_bg.png';
 import ecommerceLogo from './assets/work_logo/Cart.png'
 import calendar from './assets/work_logo/calendar.png'
 
+// Certification
+import Kubernates from './assets/certification/Kubernates.png'
+import React from './assets/certification/React.png'
+
 
 export const SkillsInfo = [
   {
@@ -322,3 +326,18 @@ export const SkillsInfo = [
       webapp: "https://calandernote.netlify.app/",
     },
   ];  
+
+  export const certifications = [
+    {
+      id: 0,
+      title: "Kubernetes for the Absolute Beginners - Hands-on",
+      image: Kubernates,    
+      webapp: "https://www.udemy.com/certificate/UC-5b4dba33-d822-4dcc-8448-8cdf5cf4cd16/",
+    },
+    {
+      id: 1,
+      title: "React-The Complete Guide 2024 (incl. Next.js, Redux)",
+      image: React,
+      webapp: "https://www.udemy.com/certificate/UC-fd26461d-764c-4be3-a2e7-3e8fa495bd94/",
+    },
+  ]

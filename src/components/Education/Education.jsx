@@ -1,5 +1,4 @@
 import { education } from "../../constants"; // Import the education data
-
 const Education = () => {
   return (
     <section
